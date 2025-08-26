@@ -71,7 +71,7 @@ def processar_conciliacao(df):
     return output_list
 
 # --- Interface do Streamlit ---
-st.title(" ferramenta de Conciliação de Transferências Bancárias")
+st.title(" Ferramenta de Conciliação de Transferências Bancárias")
 st.write("Faça o upload da sua planilha (CSV ou Excel) para ver o resumo das transferências mensais.")
 
 uploaded_file = st.file_uploader(
